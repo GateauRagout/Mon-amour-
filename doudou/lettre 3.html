@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Amour</title>
+  <style>
+    /* Style global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #2e2e2e; /* Fond sombre pour plus de contraste */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.8); /* Fond semi-transparent pour améliorer la lisibilité */
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+      animation: fadeIn 1.5s ease-in-out;
+      max-height: 80vh; /* Limiter la hauteur du container */
+      overflow-y: scroll; /* Ajouter la barre de défilement verticale */
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #ff77a9;
+      animation: pulse 2s infinite;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #f8c8c8;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 1.8;
+      color: #f8c8c8;
+      margin-bottom: 30px;
+      animation: fadeInText 2s ease-in-out;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .image-container img {
+      border-radius: 10px;
+      width: 300px;  /* Taille de la photo ajustée */
+      height: 300px;
+      object-fit: cover;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);  /* Effet de zoom au survol */
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 1.2rem;
+      color: #ffe4e1;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0% { color: #ff77a9; text-shadow: 0 0 10px #ff77a9, 0 0 20px #ff77a9, 0 0 30px #ff77a9; }
+      50% { color: #f8c8c8; text-shadow: none; }
+      100% { color: #ff77a9; text-shadow: 0 0 10px #ff77a9, 0 0 20px #ff77a9, 0 0 30px #ff77a9; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mon amour</h1>
+    <h2>La petite surprise : c'est une photo de Nala</h2>
+     <a href="Lettre .html">       <img src="doudou photo/nala .JPG" alt="Nala" style="width: 300px; height: 300px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);"></a> 
+     
+    <p>
+      C'était la petite blague, mais sache que tout ce que j'ai dit est réel. Je t'aime, tu mérites tout l'amour du monde, mon amour. Finissons à deux, voire à quatre ou cinq, même avec des difficultés. Je t'aime. Quelques petites photos pour toi.
+    </p>
+
+    <div class="image-container">
+      <!-- Remplacer par des photos personnelles -->
+     <a href="Lettre .html">   <img src="doudou photo/IMG_3719.JPG" ></a> 
+     <a href="Lettre .html">    <img src="doudou photo/IMG_3773.jpg"></a> 
+    </div>
+
+    <p class="footer">Avec tout mon amour et mes excuses sincères, <br> Je t aime Eloane ❤️
+    clique sur n importe photos pour retourner au debut </p>
+  </div>
+
+</body>
+</html>
